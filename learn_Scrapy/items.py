@@ -11,4 +11,7 @@ import scrapy
 class LearnScrapyItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
+    articleTitle = scrapy.Field()
+    articleLink = scrapy.Field()
+    postingDate = scrapy.Field()
     pass
